@@ -36,3 +36,128 @@
     transform: rotate(360deg);
   }
 }
+
+/* Tabs */
+.tab-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px 5px 0 0;
+  background-color: #eee;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.active {
+  background-color: white;
+  border-bottom-color: white;
+}
+
+.tab-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 0 5px 5px 5px;
+}
+
+/* Main header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Preset-truck dropdown menu */
+.preset-truck {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.preset-truck label {
+  margin-right: 10px;
+}
+
+.preset-truck select {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.preset-truck select:hover, .preset-truck select:focus {
+  border-color: #aaa;
+}
+
+/* Body dropdown menu */
+.body-type {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.body-type label {
+  margin-right: 10px;
+}
+
+.body-type select {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.body-type select:hover, .body-type select:focus {
+  border-color: #aaa;
+}
+
+/* Calculate and Save Result buttons */
+.button-group {
+  display: flex;
+  margin-top: 20px;
+}
+
+.calculate-button {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.save-result-button {
+  margin-left: 10px;
+}
