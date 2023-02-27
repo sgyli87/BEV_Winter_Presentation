@@ -1,29 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
-function Body() {
-  const [selectedBodyType, setSelectedBodyType] = useState('None');
-  const [outputBody, setOutputBody] = useState('Please select a body type first');
+function Body () {
+  const [selectedBodyType, setSelectedBodyType] = useState('None')
+  const [outputBody, setOutputBody] = useState('Please select a body type first')
 
   const handleBodyTypeChange = (event) => {
-    const value = event.target.value;
-    setSelectedBodyType(value);
+    const value = event.target.value
+    setSelectedBodyType(value)
     if (value === 'Body 2') {
       setOutputBody(`Body type: 2 seat with living area
 Frontal area: 3m^3
 Drag coefficient: 0.33
-Cabin weight: 2000lb`);
+Cabin weight: 2000lb`)
     } else if (value === 'Body 3') {
       setOutputBody(`Body type: 1 seat with living area
 Frontal area: 2m^3
 Drag coefficient: 0.56
-Cabin weight: 1230lb`);
+Cabin weight: 1230lb`)
     } else if (value === 'Body 4') {
       setOutputBody(`Body type: 3 seat with living area
 Frontal area: 5m^3
 Drag coefficient: 0.99
-Cabin weight: 5000lb`);
+Cabin weight: 5000lb`)
     } else {
-      setOutputBody('Please select a body type first');
+      setOutputBody('Please select a body type first')
     }
   }
 
@@ -44,11 +44,11 @@ Cabin weight: 5000lb`);
         </select>
       </div>
       <div className="output-body">
-        <h3>Output data:</h3>
-        <textarea value={outputBody} onChange={() => {}} style={{ resize: 'none', height: '200px', width: '300px' }} />
+        <h3>Overview:</h3>
+        <textarea value={outputBody} onChange={() => { }} style={{ resize: 'none', height: '200px', width: '300px' }} />
       </div>
     </div>
-  );
+  )
 }
 
-export default Body;
+export default Body
