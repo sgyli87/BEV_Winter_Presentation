@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BEV_Winter_Presentation/static/css/main.d44a5766.css",
+    "main.js": "/BEV_Winter_Presentation/static/js/main.a0c0724c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/BEV_Winter_Presentation/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/BEV_Winter_Presentation/index.html",
+    "main.d44a5766.css.map": "/BEV_Winter_Presentation/static/css/main.d44a5766.css.map",
+    "main.a0c0724c.js.map": "/BEV_Winter_Presentation/static/js/main.a0c0724c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/BEV_Winter_Presentation/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d44a5766.css",
+    "static/js/main.a0c0724c.js"
+  ]
+}
