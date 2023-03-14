@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 function Route () {
   const [selectedRoute, setSelectedRoute] = useState('None')
-  const [outputRoute, setOutputRoute] = useState('Please select a body type first')
+  const [outputRoute, setOutputRoute] = useState('Please select a route first')
 
   const handleRouteChange = (event) => {
     const value = event.target.value
@@ -18,7 +18,7 @@ Duration: 30min
 Total Distance: 25 miles
 Average Speed:40 mph`)
     } else {
-      setOutputBody('Please select a body type first')
+      setOutputRoute('Please select a body type first')
     }
   }
 
